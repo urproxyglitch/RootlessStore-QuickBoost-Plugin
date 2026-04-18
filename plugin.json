@@ -2,9 +2,10 @@
   "name": "QuickBoost",
   "author": "urproxyglitch",
   "version": "1.0",
-  "description": "First public RootlessStore shell plugin - Live performance boost",
+  "description": "Minimal toast - first plugin test",
   "type": "shell",
-  "entry": "boost.sh",
-  "requires": ["shizuku", "shell"],
-  "minVersion": "0.0.7"
+  "entry": "toast",
+  "scripts": {
+    "toast": "#!/system/bin/sh\nam broadcast -a android.intent.action.TOAST --es message \"QuickBoost by urproxyglitch loaded 🔥\" --ei duration 1"
+  }
 }
