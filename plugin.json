@@ -1,0 +1,10 @@
+{
+  "name": "QuickBoost",
+  "author": "urproxyglitch",
+  "version": "1.0",
+  "description": "First public RootlessStore shell plugin - Live performance boost",
+  "type": "shell",
+  "entry": "boost.sh",
+  "requires": ["shizuku", "shell"],
+  "minVersion": "0.0.7"
+}
