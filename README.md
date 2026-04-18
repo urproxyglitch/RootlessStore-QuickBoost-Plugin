@@ -1,0 +1,1 @@
+# RootlessStore-QuickBoost-Plugin
